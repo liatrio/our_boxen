@@ -58,6 +58,16 @@ node default {
   include hub
   include nginx
 
+  #Liatrio Defaults
+  include osx::finder::show_all_on_desktop
+  include osx::finder::unhide_library
+  include osx::finder::show_hidden_files
+  include chrome
+  include hipchat
+  include iterm2::dev
+  include iterm2::colors::solarized_light
+  include iterm2::colors::solarized_dark
+
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
     fail('Please enable full disk encryption and try again')
