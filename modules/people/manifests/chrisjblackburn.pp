@@ -1,12 +1,12 @@
 class people::chrisjblackburn {
 
-  include atom
+#  include atom
 
   # install the linter package
-  atom::package { 'linter': }
+#  atom::package { 'linter': }
 
   # install the monokai theme
-  atom::theme { 'monokai': }
+#  atom::theme { 'monokai': }
 
   class { 'vagrant':
     completion => true,
