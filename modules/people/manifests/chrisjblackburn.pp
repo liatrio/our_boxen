@@ -13,9 +13,9 @@ class people::chrisjblackburn {
   }
 
   git::config::global { 'user.email':
-    value  => 'steven.fenigstein@gmail.com'
+    value  => 'chris@liatrio.com'
   } 
   git::config::global { 'user.name':
-    value  => 'pfenig'
+    value  => 'chrisjblackburn'
   } 
 }

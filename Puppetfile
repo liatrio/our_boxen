@@ -60,3 +60,8 @@ github "xquartz",     "1.2.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+github "chrome"
+github "hipchat"
+github "osx"
+github "iterm2"
+github "atom"
