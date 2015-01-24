@@ -1,6 +1,7 @@
 class people::chrisjblackburn {
 
   include atom
+  include prezto
 
   # install the linter package
   atom::package { 'linter': }
